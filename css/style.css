@@ -1,0 +1,312 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.navbar a:hover{
+  color: pink;
+}
+
+
+.billing{
+  background-color: white;
+position: absolute;
+top: 30%;
+left: 5%;
+width:550px;
+height: 100px;
+background-color: lightgreen;
+border: 1px solid purple;
+display: block;
+text-align: center;
+}
+
+.billing h2{
+  display: block;
+}
+
+.delivery a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 36%;
+left: 7%;
+font-size: 18px;
+}
+
+.notif{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 46%;
+left: 5%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 100px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.notif a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top:0;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+margin: 10px 0px 0px 40px;
+}
+
+.notif img{
+  padding: 5px 5px;
+  width:80px;
+  height: 80px;
+}
+
+.ship{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 60%;
+left: 5%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 200px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.ship a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 5%;
+left: 12%;
+font-size: 20px;
+display: block;
+text-decoration: none;
+color: black;
+}
+
+
+.ship img{
+  padding: 5px 5px;
+  width:50px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.h{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 65%;
+left: 5%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.h a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.parcel{
+  display: block;
+  text-align:
+  color: green;
+position: absolute;
+top: 72%;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.parcel a{
+  display: block;
+  position: absolute;
+  color: lightgreen;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.parcel img{
+  padding: 5px 5px;
+  width:40px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.date{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 75%;
+left: 5%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.date a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.address{
+  display: block;
+  text-align:
+  color: black;
+position: absolute;
+top: 78%;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.address a{
+  display: block;
+  position: absolute;
+  color: black;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.address img{
+  padding: 5px 5px;
+  width:70px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.place{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 81%;
+left: 5%;
+font-size: 10px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.place a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
